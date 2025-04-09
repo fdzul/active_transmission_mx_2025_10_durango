@@ -49,4 +49,19 @@ densnv::mp_heatmap(geocoded_datasets = z,
 ```
 
 
+### [**Lerdo**]{style="color:#990000"}
+```{r heatmap_lerdo}
+densnv::mp_heatmap(geocoded_datasets = z,
+                   cve_edo = "10",
+                   locality = "Lerdo",
+                   status_caso = c(1, 2),
+                   week = c(1:53),
+                   zoom = NULL,
+                   map_type = NULL,
+                   alpha = 0.6,
+                   static = FALSE,
+                   palette = viridis::turbo)
+```
+
+
 :::
